@@ -62,6 +62,7 @@ def help_menu():
 
 #### World Functionality ####
 def start_game():
+    return
 
 
 
