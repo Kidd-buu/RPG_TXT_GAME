@@ -47,7 +47,7 @@ def title_screen():
     print('          -PLAY-              ')
     print('          -HELP-              ')
     print('          -QUIT-              ')
-    print('    Copyright 2023 I.L     ')
+    print('    Copyright 2023 I.L        ')
     title_screen_selections()
 
 def help_menu():
