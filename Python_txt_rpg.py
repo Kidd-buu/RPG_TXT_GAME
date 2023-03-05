@@ -94,3 +94,29 @@ solved_places = {'a1': False, 'a2': False, 'a3': False, 'a4': False,
                  'c1': False, 'c2': False, 'c3': False, 'c4': False,
                  'd1': False, 'd2': False, 'd3': False, 'd4': False
                  }
+
+zonemap = {
+    'a1': {
+       ZONENAME: 'Town',
+       DESCRIPTION = 'This is a town'
+       EXAMINATION = 'City of Dreams'
+       SOLVED = False
+       UP = 'd4',
+       DOWN = 'b1',
+       LEFT = 'a4',
+       RIGHT = 'a2',
+       
+    },
+    'b2': {
+       ZONENAME: 'HOME',
+       DESCRIPTION = 'This is your home!'
+       EXAMINATION = 'Place you were born and raised in'
+       SOLVED = False
+       UP = 'a2',
+       DOWN = 'c2',
+       LEFT = 'b1',
+       RIGHT = 'b3',
+       
+    },
+
+}
