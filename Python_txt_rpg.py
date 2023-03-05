@@ -51,14 +51,14 @@ def title_screen():
     title_screen_selections()
 
 def help_menu():
-        print('##############################')
-        print('# Welcome to Imagination Land#')
-        print('##############################')
-        print('-Use up, down, left, right to move')
-        print('-Type your commands to do them')
-        print('-Use "look" to inspect something')
-        print('-Goodluck & Have Fun Adventurer')
-        title_screen_selections()
+    print('##############################')
+    print('# Welcome to Imagination Land#')
+    print('##############################')
+    print('-Use up, down, left, right to move')
+    print('-Type your commands to do them')
+    print('-Use "look" to inspect something')
+    print('-Goodluck & Have Fun Adventurer')
+    title_screen_selections()
 
 #### World Functionality ####
 def start_game():
